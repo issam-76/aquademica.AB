@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.Aquademica"
+        version   = "1.0.0">
+
+    <nameAquademica</name>
+
+    <description>
+        Hello World sample application that responds to the deviceready event.
+    </description>
+
+    <author href="http://lacksokning.com" email="aquademicaa@gmail.com">
+      Aquademica AB
+    </author>
+
+    <!--
+        Enable individual API permissions here.
+        The "device" permission is required for the 'deviceready' event.
+    -->
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    
+
+
+    <!-- Define app icon for each platform. -->
+    <icon src="icon.png" />
+
+
+</widget>
